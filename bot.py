@@ -19,7 +19,7 @@ def help_message(message):
 
   @bot.message_handler(commands=['git'])
 def molly(message):
-    bot.send_message(message.chat.id, " Эта правка сделана на GITHUB🤯")
+    bot.send_message(message.chat.id, "Эта правка сделана на GITHUB🤯")
 
     
     #Фразочки
