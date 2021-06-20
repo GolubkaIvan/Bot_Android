@@ -17,7 +17,10 @@ def start_message(message):
 def help_message(message):
     bot.send_message(message.chat.id, "/polnomochie - Тут это самое наши полномочия все. /ahaha - Ты меня расмешнил. /eboy - Ахаха е бой. /daeto - Да это жестко!")
 
-  
+  @bot.message_handler(commands=['git'])
+def help_message(message):
+    bot.send_message(message.chat.id, "GITHUB🤯")
+
     
     #Фразочки
 @bot.message_handler(commands=['polnomochie'])
